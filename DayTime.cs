@@ -9,7 +9,7 @@ public class SnakkDayTime
         if (hour < 6)
             return "God morgen";
         else if (hour < 14)
-            return "God formiddag";
+            return "God ettermiddag";
         else
             return "God kveld";
     }
