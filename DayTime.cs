@@ -7,10 +7,10 @@ public class SnakkDayTime
         int hour = DateTime.Now.Hour;
 
         if (hour < 6)
-            return "God morgen";
+            return "God morgen.";
         else if (hour < 14)
-            return "God ettermiddag";
+            return "God ettermiddag.";
         else
-            return "God kveld";
+            return "God kveld.";
     }
 }

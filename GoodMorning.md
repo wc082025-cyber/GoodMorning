@@ -48,6 +48,9 @@
 
     https://www.amazon.com/Yoqanr-Programmable-Keyboard-Decision-Customized/dp/B0FB8WV74R?th=1
 
+
+
+
 # API
 
         Get API from weather
@@ -66,7 +69,7 @@
 
     if rain wear rain coat
 
-    if windy, how windy
+    
 
 
     if time   (time > 0600) writeline God morgen
@@ -74,3 +77,24 @@
     else if   (time > 1400) writeline God ettermiddag
     else if   (time > 1800) writeline God kveld
     else      (time > 2300) writeline God natt
+
+
+# finished product
+  The finished product was fun. 
+  It has a real life function for those with dementia or people with cognitive disabilites.
+
+  First the clock will greet user with time of day.
+  Then speaks time, give a weather report on temp and percipitation,
+  depending on temp, it will output suggestions on what user should wear.
+
+  Depending on how far out the user are in the stages of dementia, it can give
+  as complex or basic information the caretakers see that the user needs.
+  From where I have coded here, as I think will be the most useful early,
+  to the absolutely most basic information as "God morgen" "God ettermiddag" "God kveld"
+  Where the latter is useful to those with very advances stages of Alzheimers, and do not
+  comprehend time in numbers as a healthy person does.
+
+  I do think that this program has a practical use, and that I should make an effort to 
+  program this on a micro computer as a Raspberry π or similar with motion sensor 
+  to test the real world application of this.
+  
